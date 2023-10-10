@@ -1,5 +1,9 @@
 .DS_Store
 
+application/controllers/Homepage.php
+application/views/Homepage.php
+assetst
+
 application/cache/*
 !application/cache/index.html
 
