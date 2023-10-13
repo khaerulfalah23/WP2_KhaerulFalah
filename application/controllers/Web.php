@@ -21,4 +21,11 @@ class Web extends CI_Controller{
         $this->load->view('v_about',$data);
         $this->load->view('v_footer',$data);
     }
+
+    public function news() {
+        $data['judul'] = "Halaman News";
+        $this->load->view('v_header',$data);
+        $this->load->view('v_news',$data);
+        $this->load->view('v_footer',$data);
+    }
 }
